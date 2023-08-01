@@ -1,7 +1,7 @@
 ---
 title: Sample 2 Topic
 keywords: sample
-summary: "This is just a sample topic..."
+summary: "Це просто приклад"
 sidebar: product2_sidebar
 permalink: p2_sample2.html
 simple_map: true
