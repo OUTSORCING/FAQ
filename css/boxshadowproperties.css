@@ -1,5 +1,5 @@
 /* box-shadow fonts return errors with prince, so extracting here to put in web output only */
-
+@charset "UTF-8";
 #search-demo-container ul#results-container {
     box-shadow: 2px 3px 2px #dedede;
 }
