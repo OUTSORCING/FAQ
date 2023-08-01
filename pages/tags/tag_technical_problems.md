@@ -1,7 +1,7 @@
 ---
 title: "Технічні проблеми"
 tagName: технічні_проблеми
-permalink: tag_technical_problems.html
+permalink: technical_problems
 sidebar: mydoc_sidebar
 folder: tags
 summary: Якщо ви не знайшли вирішення своєї проблеми, зверніться до it - спеціаліста. 
