@@ -41,6 +41,10 @@ entries:
       url: /tag_tutorials.html
       output: web, pdf
 
+    - title: Стажування та оплата
+      url: /salary.html
+      output: web, pdf
+
 #   - title: Installation
 #     output: web, pdf
 #     folderitems:
