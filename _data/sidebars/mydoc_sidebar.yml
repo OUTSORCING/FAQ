@@ -45,9 +45,16 @@ entries:
       url: /salary.html
       output: web, pdf
 
-#   - title: Installation
-#     output: web, pdf
-#     folderitems:
+  - title: Стажуваня та Посадові інструкції
+    output: web, pdf
+    folderitems:
+    - title: Менеджер первинної обробки
+      url: /managerfaq.html
+      output: web, pdf
+    - title: Термінологія та базові реакції опрацювання клієнта
+      url: /bazoviopratsyuvannya.html
+      output: web, pdf
+       
 
 #     - title: About Ruby, Gems, Bundler, etc.
 #       url: /mydoc_about_ruby_gems_etc.html
