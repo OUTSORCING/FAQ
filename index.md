@@ -92,6 +92,21 @@ summary: Ці інструкці допоможуть вам швидко уві
                  </div>
              </div>
          </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-address-card  fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body">
+                     <h4>Термінал обліку</h4>
+                     <p>Термнал обліку робочого часу</p>
+                     <a href="terminal.html" class="btn btn-primary">Перейти</a>
+                 </div>
+             </div>
+         </div>
          </div>
 
 ## Вимоги та нормативи
