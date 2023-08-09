@@ -44,6 +44,10 @@ entries:
     - title: Стажування та оплата
       url: /salary.html
       output: web, pdf
+      
+    - title: Термінал обліку робочого часу
+      url: /terminal.html
+      output: web, pdf
 
   - title: Стажуваня та Посадові інструкції
     output: web, pdf
@@ -54,7 +58,6 @@ entries:
     - title: Термінологія та базові реакції опрацювання клієнта
       url: /bazoviopratsyuvannya.html
       output: web, pdf
-       
 
 #     - title: About Ruby, Gems, Bundler, etc.
 #       url: /mydoc_about_ruby_gems_etc.html
