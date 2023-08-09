@@ -5,15 +5,7 @@
 #   - Jekyll 3.9.3
 #   - GitHub Pages 288
 #
-#   This code is from the following Gist:
-#   https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332#file-post-run-txt
 #
-# Instructions:
-#  1. Copy all the text in this file
-#  2. Create a file named Dockerfile and paste the code
-#  3. Create the Docker image/container
-#  4. Locate the shell file in this Gist file and run it in the local repo's root
-# "#################################################"
 FROM ubuntu:22.04
 
 # "#################################################"
