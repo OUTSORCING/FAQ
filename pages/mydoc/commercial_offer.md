@@ -1,10 +1,10 @@
 ---
 title: "Комерційна пропозиція"
-tagName: commercial_offer
-permalink: tag_commercial_offer.html
+permalink: commercial_offer.html
 sidebar: mydoc_sidebar
-folder: tags
+folder: mydoc
 ---
+
 <a target="\_blank" class="noCrossRef" href="{{ "pdf/commercial_offer.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
 
 ## Запит на матеріали для КП

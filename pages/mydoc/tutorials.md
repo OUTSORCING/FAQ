@@ -1,9 +1,9 @@
 ---
 title: "Відеоуроки для менеджерів"
 tagName: formatting
-permalink: tag_tutorials.html
+permalink: tutorials.html
 sidebar: mydoc_sidebar
-folder: tags
+folder: mydoc
 ---
 ## Розрахунок заробітньої плати
 <iframe width="789" height="444" src="https://www.youtube.com/embed/OQAHR-eTH_I" frameborder="0" allowfullscreen></iframe>
@@ -13,6 +13,4 @@ folder: tags
 
 ## Сторінка робити в CRM
 <iframe width="789" height="444" src="https://www.youtube.com/embed/6_cF0MtLDeE" frameborder="0" allowfullscreen></iframe>
-
-
 

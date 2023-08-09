@@ -1,11 +1,12 @@
 ---
 title: "Технічні проблеми"
 tagName: технічні_проблеми
-permalink: tag_technical_problems.html
+permalink: technical_problems.html
 sidebar: mydoc_sidebar
-folder: tags
+folder: mydoc
 summary: Якщо ви не знайшли вирішення своєї проблеми, зверніться до it - спеціаліста. 
 ---
+
 {% include warning.html content="Не забувайте, якщо ви хочете повернутись назад, не використовуйте стрілки в барузері!" %}
 
 ## Заборони та «РИФИ»

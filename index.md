@@ -23,7 +23,7 @@ summary: Ці інструкці допоможуть вам швидко уві
                  <div class="panel-body">
                      <h4>Технічні питання</h4>
                      <p>Мене/Я погано чують/чую. Не працюють кнопки в анкеті. Не закривається анкета. «Зриває».</p>
-                     <a href="tag_technical_problems.html" class="btn btn-primary">Перейти</a>
+                     <a href="technical_problems.html" class="btn btn-primary">Перейти</a>
                  </div>
              </div>
          </div>
@@ -38,7 +38,7 @@ summary: Ці інструкці допоможуть вам швидко уві
                  <div class="panel-body">
                      <h4>Оформлення записів в анкетах.</h4>
                      <p>Як правильно оформити запис в анкету</p>
-                     <a href="tag_anketa.html" class="btn btn-primary">Перейти</a>
+                     <a href="anketa.html" class="btn btn-primary">Перейти</a>
                  </div>
              </div>
          </div>
@@ -53,7 +53,7 @@ summary: Ці інструкці допоможуть вам швидко уві
                  <div class="panel-body">
                      <h4>Комерційна пропозиція</h4>
                      <p>Запит на матеріали для КП</p>
-                     <a href="tag_commercial_offer.html" class="btn btn-primary">Перейти</a>
+                     <a href="commercial_offer.html" class="btn btn-primary">Перейти</a>
                  </div>
              </div>
          </div>
@@ -68,7 +68,7 @@ summary: Ці інструкці допоможуть вам швидко уві
                  <div class="panel-body">
                      <h4>Відеоуроки</h4>
                      <p>Відеоуроки для менеджерів</p>
-                     <a href="tag_tutorials.html" class="btn btn-primary">Перейти</a>
+                     <a href="tutorials.html" class="btn btn-primary">Перейти</a>
                  </div>
              </div>
          </div>

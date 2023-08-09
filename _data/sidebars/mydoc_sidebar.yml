@@ -26,25 +26,25 @@ entries:
       type: homepage
 
     - title: Технічні проблеми
-      url: /tag_technical_problems.html
+      url: /technical_problems.html
       output: web, pdf
 
     - title: Оформлення записів
-      url: /tag_anketa.html
+      url: /anketa.html
       output: web, pdf
 
     - title: Комерційна пропозиція
-      url: /tag_commercial_offer.html
+      url: /commercial_offer.html
       output: web, pdf
 
     - title: Відеоуроки
-      url: /tag_tutorials.html
+      url: /tutorials.html
       output: web, pdf
 
     - title: Стажування та оплата
       url: /salary.html
       output: web, pdf
-      
+
     - title: Термінал обліку робочого часу
       url: /terminal.html
       output: web, pdf
