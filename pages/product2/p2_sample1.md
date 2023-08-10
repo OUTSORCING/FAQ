@@ -11,7 +11,7 @@ folder: product2
 
 <h1 style="text-align:center">Вітаю!</h1>
 
-{% include image.html file="hello.png" alt="Terminal" %}
+{% include image.html file="hello.webp" alt="Terminal" %}
 <br>
 
 ## Ознайомлення
