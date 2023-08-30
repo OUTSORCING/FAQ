@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 folder: mydoc
 ---
 
-<a target="\_blank" class="noCrossRef" href="{{ "pdf/commercial_offer.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+<a target="\_blank" class="noCrossRef" href="{{ "pdf/outsorcing_KP.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
 
 ## Запит на матеріали для КП
 Прошу надати інформацію, що стосується комерційної пропозиції. Список необхідних для КП матеріалів та інформації:
