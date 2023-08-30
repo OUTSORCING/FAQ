@@ -53,31 +53,4 @@ folder: mydoc
 
 {% include links.html %}
 
-## Приклад комерційної пропозиції
-
-<script src="{{ "js/colorpicer.js" }}"></script>
-
-<span class="hex">#000000</span></h1>
-
-<input type="color">
-
-<div class="color-block">
-
-<style>
-.color-block {
-margin-top: 16px;
-border: solid 1px #000;
-width: 100%;
-max-width: 400px;
-height: 400px;
-background: #000;
-}
-input {
-cursor: pointer;
-}
-.hex {
-margin: 16px 0;
-font-size: 18px;
-}
-</style>
 
