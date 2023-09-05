@@ -26,5 +26,18 @@ folder: product2
 - Гарнітуру з нормальним мікрофоном
 - Компʼютер, який здатний витримати навантаження від 2 програм (Skype та Браузер)
 
+### Віддалена технічна підтримка
 
+Для того аби забезпечити вас якісною підтримкою під час роботи ми використовуємо програму [AnyDesk](https://anydesk.com/en/downloads/windows), встановіть її на свій компʼютер.
 
+Для того аби наш спеціаліст мав змогу віддаленого підключення до вашого пристрою та допомогти вирішити проблему, надайте свій AnyDesk-ID. 
+
+<img src="https://support.anydesk.com/hs-fs/hubfs/Help%20Center/Connecting%20to%20a%20Remote%20Client/VirtualBoxVM_qndJi8Dkil.png?width=902&name=VirtualBoxVM_qndJi8Dkil.png" alt="" style="height: 100%; width:100%;"/>
+
+Під час спроби підключення на вашому компʼютері зʼявиться діалогове вікно де ви можете дозволити віддалене підключення, але прийміть до уваги, що в цьому діалоговому вікні необхідно надати повний контроль доступу до вашого пристрою.
+
+<img src="https://support.anydesk.com/hs-fs/hubfs/Help%20Center/Connecting%20to%20a%20Remote%20Client/VirtualBoxVM_bao5gPJz7u.png?width=940&name=VirtualBoxVM_bao5gPJz7u.png" alt="" style="height: 100%; width:100%;"/>
+
+В діалоговому вікні замість **Default**  оберіть **Full Access**
+
+За цим посиланням, ви можете ознайомитись з більш детальнішою інструкцією по роботі в [AnyDesk](https://support.anydesk.com/knowledge/connecting-to-a-remote-client).
