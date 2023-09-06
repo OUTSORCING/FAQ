@@ -1,6 +1,6 @@
 ---
-title: "Технічні проблеми"
-tagName: технічні_проблеми
+title: "Технічні питання"
+tagName: технічні_питання
 permalink: technical_problems.html
 sidebar: mydoc_sidebar
 folder: mydoc
