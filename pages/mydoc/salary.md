@@ -178,6 +178,11 @@ folder: mydoc
             const interestedClients = parseFloat(document.getElementById("interestedClients").value) || 0;
             const otherClients = parseFloat(document.getElementById("otherClients").value) || 0;
 
+            if (hotClients < 0 || warmClients < 0 || interestedClients < 0 || otherClients < 0){
+            alert("Це поле не може бути відʼємним.");
+                return;
+            }
+
             const rateHot = 29.00;
             const rateWarm = 18.12;
             const rateInterested = 3.30;
@@ -186,6 +191,6 @@ folder: mydoc
             const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther);
 
             const resultElement = document.getElementById("result");
-            resultElement.textContent = `Заробітна плата: ${totalSalary.toFixed(2)} умовних одиниць`;
+            resultElement.textContent = `Заробітна плата: ${totalSalary.toFixed(2)} грн.`;
         }
     </script>
