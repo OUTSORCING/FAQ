@@ -2,22 +2,23 @@
 
 <br>
 <label for="hotClients">Гарячі клієнти (29 грн):</label>
-    <input type="text" pattern="[\d]{3}" id="hotClients" value="0" onchange="calculateSalary()"><br>
+    <input type="number" size="3" pattern="[\d]{3}" id="hotClients" value="0" onchange="calculateSalary()"><br>
     <br>
     <label for="warmClients">Теплі клієнти (18 грн. 12 коп.):</label>
-    <input type="text" pattern="[\d]{3}" id="warmClients" value="0" onchange="calculateSalary()"><br>
+    <input type="number" size="3" pattern="[\d]{3}" id="warmClients" value="0" onchange="calculateSalary()"><br>
     <br>
     <label for="interestedClients">Гіпотетично зацікавлені клієнти (3 грн. 30 коп.):</label>
-    <input type="text" pattern="[\d]{3}" id="interestedClients" value="0" onchange="calculateSalary()"><br>
+    <input type="number" size="3" pattern="[\d]{3}" id="interestedClients" value="0" onchange="calculateSalary()"><br>
     <br>
     <label for="otherClients">Інші клієнти (2грн 30коп.):</label>
-    <input type="text" pattern="[\d]{3}" id="otherClients" value="0" onchange="calculateSalary()"><br>
+    <input type="number" size="3" pattern="[\d]{3}" id="otherClients" value="0" onchange="calculateSalary()"><br>
     <br>
     
     <p id="result">Заробітна плата: 0.00 грн</p>
     <p id="result2">Заробітна плата за 22 робочих дні: 0.00 грн.</p>
 
     <script>
+        document.onkeydown = calculateSalary;
         function calculateSalary() {
             const hotClients = parseFloat(document.getElementById("hotClients").value) || 0;
             const warmClients = parseFloat(document.getElementById("warmClients").value) || 0;
