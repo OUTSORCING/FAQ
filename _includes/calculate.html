@@ -1,0 +1,45 @@
+<h1> Калькулятор заробітньої плати </h1>
+
+<br>
+<label for="hotClients">Гарячі клієнти (29 грн):</label>
+    <input type="number" id="hotClients" value="0" onblur="calculateSalary()"><br>
+    <br>
+    <label for="warmClients">Теплі клієнти (18 грн. 12 коп.):</label>
+    <input type="number" id="warmClients" value="0" onblur="calculateSalary()"><br>
+    <br>
+    <label for="interestedClients">Гіпотетично зацікавлені клієнти (3 грн. 30 коп.):</label>
+    <input type="number" id="interestedClients" value="0" onblur="calculateSalary()"><br>
+    <br>
+    <label for="otherClients">Інші клієнти (2грн 30коп.):</label>
+    <input type="number" id="otherClients" value="0" onblur="calculateSalary()"><br>
+    <br>
+    
+    <p id="result">Заробітна плата: 0.00 грн</p>
+    <p id="result2">Заробітна плата за 22 робочих дні: 0.00 грн.</p>
+
+    <script>
+        function calculateSalary() {
+            const hotClients = parseFloat(document.getElementById("hotClients").value) || 0;
+            const warmClients = parseFloat(document.getElementById("warmClients").value) || 0;
+            const interestedClients = parseFloat(document.getElementById("interestedClients").value) || 0;
+            const otherClients = parseFloat(document.getElementById("otherClients").value) || 0;
+
+            if (hotClients < 0 || warmClients < 0 || interestedClients < 0 || otherClients < 0){
+            alert("Це поле не може бути відʼємним.");
+                return;
+            }
+
+            const rateHot = 29.00;
+            const rateWarm = 18.12;
+            const rateInterested = 3.30;
+            const rateOther = 2.30;
+
+            const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther);
+            const finalSalary = totalSalary * 22;
+            const resultElement = document.getElementById("result");
+            resultElement.textContent = `Заробітна плата: ${totalSalary.toFixed(2)} грн.`;
+
+            const resultElement2 = document.getElementById("result2");
+            resultElement2.textContent = `Заробітна плата за 22 робочих дні: ${finalSalary.toFixed(2)} грн.`;
+        }   
+    </script>
