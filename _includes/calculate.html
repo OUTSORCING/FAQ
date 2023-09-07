@@ -1,7 +1,8 @@
 
 <br>
 <div class="input-box">
-<p id="CountAllAnkets"> Анкети: 0</p>
+
+<p id="digitSum">Анкет: 0</p>
 
 <label for="hotClients">Гарячі клієнти:</label>
     <input type="number" size="3" min="0" max="999" id="hotClients" value="0" onchange="calculateSalary()"><br>
@@ -39,8 +40,8 @@
             const rateWarm = 18.12;
             const rateInterested = 3.30;
             const rateOther = 2.30;
-
-            const CountAllAnkets = (hotClients * 1) + (warmClients * 1) + (interestedClients * 1) + (otherClients * 1); 
+            
+            var countAnkets = hotClients + warmClients + interestedClients + otherClients;  
 
             console.log('hotClients'+hotClients+' * rateHot'+rateHot+') + (warmClients'+warmClients+' * rateWarm'+rateWarm+') + (interestedClients'+interestedClients+' * rateInterested'+rateInterested+') + (otherClients'+otherClients+ '* rateOther'+otherClients+')');
             const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther);
@@ -50,6 +51,9 @@
 
             const resultElement2 = document.getElementById("result2");
             resultElement2.textContent = `Заробітна плата за 22 робочих дні: ${finalSalary.toFixed(2)} грн.`;
-        
+
+            const resultElement3 = document.getElementById("digitSum");
+            resultElement3.textContent = `Анкет: ${countAnkets} `;
+
         }   
     </script>
