@@ -18,7 +18,7 @@
     <p id="result2">Заробітна плата за 22 робочих дні: 0.00 грн.</p>
 
     <script>
-        document.onkeydown = calculateSalary;
+        document.onkeyup = calculateSalary;
         function calculateSalary() {
             const hotClients = parseFloat(document.getElementById("hotClients").value) || 0;
             const warmClients = parseFloat(document.getElementById("warmClients").value) || 0;
