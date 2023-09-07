@@ -34,7 +34,7 @@
             const rateWarm = 18.12;
             const rateInterested = 3.30;
             const rateOther = 2.30;
-
+            console.log('hotClients'+hotClients+' * rateHot'+rateHot+') + (warmClients'+warmClients+' * rateWarm'+rateWarm+') + (interestedClients'+interestedClients+' * rateInterested'+rateInterested+') + (otherClients'+otherClients+ '* rateOther'+otherClients+')');
             const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther);
             const finalSalary = totalSalary * 22;
             const resultElement = document.getElementById("result");
