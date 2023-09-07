@@ -1,22 +1,24 @@
-<h1> Калькулятор заробітньої плати </h1>
 
 <br>
-<label for="hotClients">Гарячі клієнти (29 грн):</label>
-    <input type="number" size="5" min="0" max="999" id="hotClients" value="0" onchange="calculateSalary()"><br>
+<div class="input-box">
+<label for="hotClients">Гарячі клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="hotClients" value="0" onchange="calculateSalary()"><br>
     <br>
-    <label for="warmClients">Теплі клієнти (18 грн. 12 коп.):</label>
-    <input type="number" size="5" min="0" max="999" id="warmClients" value="0" onchange="calculateSalary()"><br>
+    <label for="warmClients">Теплі клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="warmClients" value="0" onchange="calculateSalary()"><br>
     <br>
-    <label for="interestedClients">Гіпотетично зацікавлені клієнти (3 грн. 30 коп.):</label>
-    <input type="number" size="5" min="0" max="999" id="interestedClients" value="0" onchange="calculateSalary()"><br>
+    <label for="interestedClients">Гіпотетично зацікавлені клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="interestedClients" value="0" onchange="calculateSalary()"><br>
     <br>
-    <label for="otherClients">Інші клієнти (2грн 30коп.):</label>
-    <input type="number" size="5" min="0" max="999" id="otherClients" value="0" onchange="calculateSalary()"><br>
+    <label for="otherClients">Інші клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="otherClients" value="0" onchange="calculateSalary()"><br>
     <br>
     
     <p id="result">Заробітна плата: 0.00 грн</p>
     <p id="result2">Заробітна плата за 22 робочих дні: 0.00 грн.</p>
-
+</div>
+<style>
+</style>
     <script>
         document.onkeyup = calculateSalary;
         function calculateSalary() {
