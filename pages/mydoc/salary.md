@@ -149,6 +149,14 @@ folder: mydoc
 
 ## Калькулятор заробітньої платні
 
+|           Лід           | Норма |
+|:-----------------------|:-----:|
+| Норма |  **120 анкет на день** |
+| Термінові/гарячі        |   **5**   |
+| Теплі                   |   **8**   |
+| Гіпотетично зацікавлені |   **44**  |
+| Інші (Холодні)          |   **63**  |
+
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Дистанційно</a></li>
     <li><a class="noCrossRef" href="#match" data-toggle="tab">В офісі</a></li>
@@ -159,7 +167,7 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane" id="match">
-{% include calculate.html %}
+{% include calculateOffline.html %}
 </div>
 </div>
 
