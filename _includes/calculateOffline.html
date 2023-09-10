@@ -48,10 +48,10 @@
             const totalSalary2 = (hotClients2 * rateHot2) + (warmClients2 * rateWarm2) + (interestedClients2 * rateInterested2) + (otherClients2 * rateOther2);
             const finalSalary2 = totalSalary2 * 22;
             const resultOflineElement = document.getElementById("resultOfline");
-            resultOflineElement.textContent = `Заробітна плата: ${totalSalary2.toFixed(2)} грн.`;
+            resultOflineElement.textContent = `Заробітна плата за день: ${totalSalary2.toFixed(2)} грн.`;
 
             const resultOflineElement2 = document.getElementById("resultOfline2");
-            resultOflineElement2.textContent = `Заробітна плата за 22 робочих дні: ${finalSalary2.toFixed(2)} грн.`;
+            resultOflineElement2.textContent = `Заробітна плата за місяць (22 робочих дні): ${finalSalary2.toFixed(2)} грн.`;
 
             const resultOflineElement3 = document.getElementById("digitSum2");
             resultOflineElement3.textContent = `Анкет: ${countAnkets2} `;
