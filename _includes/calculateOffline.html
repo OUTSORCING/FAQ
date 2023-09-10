@@ -1,0 +1,61 @@
+
+<br>
+<div class="container">
+<div class="input-box">
+
+<p id="digitSum2">Анкет: 0</p>
+
+<label for="hotClients2">Гарячі клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="hotClients2" value="0" onchange="calculateSalary2()"><br>
+    <br>
+    <label for="warmClients2">Теплі клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="warmClients2" value="0" onchange="calculateSalary2()"><br>
+    <br>
+    <label for="interestedClients2">Гіпотетично зацікавлені клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="interestedClients2" value="0" onchange="calculateSalary2()"><br>
+    <br>
+    <label for="otherClients2">Інші клієнти:</label>
+    <input type="number" size="3" min="0" max="999" id="otherClients2" value="0" onchange="calculateSalary2()"><br>
+    <br>
+    
+    
+    <p id="resultOfline">Заробітна плата за день: 0.00 грн</p>
+    <p id="resultOfline2">Заробітна плата за місяць (22 робочих дні): 0.00 грн.</p>
+</div>
+</div>
+
+    <script>
+        document.onkeyup = calculateSalary2;
+        function calculateSalary2() {
+            const hotClients2 = parseFloat(document.getElementById("hotClients2").value) || 0;
+            const warmClients2 = parseFloat(document.getElementById("warmClients2").value) || 0;
+            const interestedClients2 = parseFloat(document.getElementById("interestedClients2").value) || 0;
+            const otherClients2 = parseFloat(document.getElementById("otherClients2").value) || 0;
+
+            if (hotClients2 < 0 || warmClients2 < 0 || interestedClients2 < 0 || otherClients2 < 0){
+            alert("Це поле не може бути відʼємним.");
+                return;
+            }
+
+            const rateHot2 = 34.00;
+            const rateWarm2 = 21.30;
+            const rateInterested2 = 3.87;
+            const rateOther2 = 2.70;
+            
+            var countAnkets2 = hotClients2 + warmClients2 + interestedClients2 + otherClients2;  
+
+            console.log('hotClients2'+hotClients2+' * rateHot2'+rateHot2+') + (warmClients2'+warmClients2+' * rateWarm2'+rateWarm2+') + (interestedClients2'+interestedClients2+' * rateInterested2'+rateInterested2+') + (otherClients2'+otherClients2+ '* rateOther2'+otherClients2+')');
+            const totalSalary2 = (hotClients2 * rateHot2) + (warmClients2 * rateWarm2) + (interestedClients2 * rateInterested2) + (otherClients2 * rateOther2);
+            const finalSalary2 = totalSalary2 * 22;
+            const resultOflineElement = document.getElementById("resultOfline");
+            resultOflineElement.textContent = `Заробітна плата: ${totalSalary2.toFixed(2)} грн.`;
+
+            const resultOflineElement2 = document.getElementById("resultOfline2");
+            resultOflineElement2.textContent = `Заробітна плата за 22 робочих дні: ${finalSalary2.toFixed(2)} грн.`;
+
+            const resultOflineElement3 = document.getElementById("digitSum2");
+            resultOflineElement3.textContent = `Анкет: ${countAnkets2} `;
+
+        }   
+    </script>
+
