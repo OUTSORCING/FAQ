@@ -49,6 +49,10 @@ entries:
       url: /terminal.html
       output: web, pdf
 
+    - title: Калькулятор заробітньої платні 
+      url: /calculateSalary.html
+      output: web, pdf
+
   - title: Стажуваня та Посадові інструкції
     output: web, pdf
     folderitems:
