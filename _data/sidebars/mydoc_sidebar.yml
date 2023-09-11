@@ -68,16 +68,8 @@ entries:
   - title: Навчання
     output: web, pdf
     folderitems:
-    - title: Перший крок 
+    - title: Перші кроки 
       url: /p2_sample1.html
-      output: web, pdf
-
-    - title: Другий крок
-      url: /p2_sample2.html
-      output: web, pdf
-
-    - title: Третій крок
-      url: /p2_sample3.html
       output: web, pdf
 #     - title: About Ruby, Gems, Bundler, etc.
 #       url: /mydoc_about_ruby_gems_etc.html
