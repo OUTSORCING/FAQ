@@ -58,9 +58,10 @@ entries:
     - title: Помічник HR - рекрутера
       url: /hr.html
       output: web, pdf
-    - title: Термінологія та базові реакції опрацювання клієнта
-      url: /bazoviopratsyuvannya.html
+    - title: Координатор
+      url: /coordinator.html
       output: web, pdf
+
   - title: Навчання
     output: web, pdf
     folderitems:
@@ -69,6 +70,9 @@ entries:
       output: web, pdf
     - title: Відеоуроки
       url: /tutorials.html
+      output: web, pdf
+    - title: Термінологія та базові реакції опрацювання клієнта
+      url: /bazoviopratsyuvannya.html
       output: web, pdf
 #     - title: About Ruby, Gems, Bundler, etc.
 #       url: /mydoc_about_ruby_gems_etc.html
