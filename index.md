@@ -118,7 +118,7 @@ summary: Ці інструкці допоможуть вам швидко уві
                  <div class="panel-body">
                      <h4>Калькулятор заробітньої платні</h4>
                      <p>Розрахунок заробітньої платні для віддалених та офісних працівників</p>
-                     <a href="terminal.html" class="btn btn-primary">Перейти</a>
+                     <a href="calculateSalary.html" class="btn btn-primary">Перейти</a>
                  </div>
              </div>
          </div>
