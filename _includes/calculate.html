@@ -35,10 +35,16 @@
                 return;
             }
 
-            const rateHot = 29.00;
-            const rateWarm = 18.12;
-            const rateInterested = 3.30;
-            const rateOther = 2.30;
+            const zarplata=14000; const work_day=22; const normaAnk=120;  const Nint=5; const Nwar=8; const Ncol=44; const Nnot=63;
+	        const bus=15; const lunch=50; 
+	
+	        var price_day= zarplata/ work_day;
+	        var price_minute= zarplata/(work_day*8*60);
+            
+            var rateHot = 0.25*price_day/Nint;
+            var rateWarm = 0.25*price_day/Nwar;
+            var rateInterested = 0.25*price_day/Ncol;
+            var rateOther = 0.25*price_day/Nnot;
             
             var countAnkets = hotClients + warmClients + interestedClients + otherClients;  
 
