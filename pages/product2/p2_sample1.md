@@ -74,4 +74,5 @@ folder: product2
 2. [Firefox](https://www.mozilla.org/en-US/firefox/new/) (Ми радимо використовувати даний браузер)
 
 3. Якщо ви використовуєте не Firefox, а інший браузер і він не дозволяє вибрати програму для здійснення дзвінка при натисканні на номер телефону, то скористайтесь файлом реєстру для налаштування відповідності типу протоколу та програми, що буде його опрацьовувати <a target="\_blank" class="noCrossRef" href="{{ "files/sip.reg"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Завантажити</button></a>
+
    Якщо це не допомоголо, то або встановіть Firefox або зверніться до ІТ по допомогу.
