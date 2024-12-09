@@ -68,8 +68,8 @@ folder: product2
 
 Перевірити телефонію ви можете набравши номер 006. У відповідь ви маєте почути ехо - власний голос.
 
-Після варто перевірити чи буде 3CXphone телефонувати при натисканні на кнопки номерів у браузері. Для цього натисніть кнопку   
-<a class="noCrossRef" href="sip:006"><button type="button" class="btn btn-default" aria-label="Left Align"><span aria-hidden="true">☎</span> Ехо </button></a>  і програмний телефон після цього має автоматично виконати набір номера 006.
+Після варто перевірити чи буде 3CXphone телефонувати при натисканні на кнопки номерів у браузері. 
+Для цього натисніть кнопку <a class="noCrossRef" href="sip:006"><button type="button" class="btn btn-default" aria-label="Left Align"><span aria-hidden="true">☎</span> Ехо </button></a>  і програмний телефон після цього має автоматично виконати набір номера 006.
 
 
 
