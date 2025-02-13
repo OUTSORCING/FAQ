@@ -50,7 +50,8 @@
             var noanswerClients=countAnkets*0.4;
 
             console.log(`hotClients ${hotClients} * rateHot ${rateHot} + warmClients ${warmClients} * rateWarm ${rateWarm} + interestedClients ${interestedClients} * rateInterested ${rateInterested} + otherClients ${otherClients} * rateOther ${rateOther} + noanswerClients ${noanswerClients} * price_minute ${price_minute}`);
-            const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther) + (noanswerClients * price_minute);
+            //const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther) + (noanswerClients * price_minute);
+            const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther);
             const finalSalary = totalSalary * 22;
             const resultElement = document.getElementById("result");
             resultElement.textContent = `Заробітна плата: ${totalSalary.toFixed(2)} ₴`;
