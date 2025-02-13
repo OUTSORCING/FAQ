@@ -49,7 +49,7 @@
             var countAnkets = hotClients + warmClients + interestedClients + otherClients;  
             var noanswerClients=countAnkets*0.4;
 
-            console.log('hotClients'+hotClients+' * rateHot'+rateHot+') + (warmClients'+warmClients+' * rateWarm'+rateWarm+') + (interestedClients'+interestedClients+' * rateInterested'+rateInterested+') + (otherClients'+otherClients+ '* rateOther'+otherClients+')' + (noanswerClients'+noanswerClients+ '* price_minute'+price_minute+')');
+            console.log(`hotClients ${hotClients} * rateHot ${rateHot} + warmClients ${warmClients} * rateWarm ${rateWarm} + interestedClients ${interestedClients} * rateInterested ${rateInterested} + otherClients ${otherClients} * rateOther ${rateOther} + noanswerClients ${noanswerClients} * price_minute ${price_minute}`);
             const totalSalary = (hotClients * rateHot) + (warmClients * rateWarm) + (interestedClients * rateInterested) + (otherClients * rateOther) + (noanswerClients * price_minute);
             const finalSalary = totalSalary * 22;
             const resultElement = document.getElementById("result");
