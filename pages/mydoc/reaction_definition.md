@@ -1,8 +1,8 @@
 ---
 title: Визначення реакції відповідно до класифікації.
-sidebar: reaction_definition
 permalink: reaction.html
 folder: mydoc
+sidebar: mydoc_sidebar
 ---
 
 Мета роботи - визначення реакції lead/клієнта відповідно до класифікації.
