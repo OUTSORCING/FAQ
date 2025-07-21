@@ -49,6 +49,10 @@ entries:
       url: /calculateSalary.html
       output: web, pdf
 
+    - title: Визначення реакцій
+      url: /reaction.html
+      output: web, pdf
+
   - title: Стажуваня та Посадові інструкції
     output: web, pdf
     folderitems:
